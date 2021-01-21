@@ -24,7 +24,7 @@ module.exports = {
         test: /\.tsx?$/,
         exclude: /node-modules/,
         include: includePaths,
-        use: "ts-loader",
+        use: "babel-loader",
       },
     ],
   },
